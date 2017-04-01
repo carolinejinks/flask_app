@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Welcome to the Sweets of the World Flask app!</h1>
+
+<p>This is the index page for a list of sweets from around the world.</p>
+
+<ul>
+
+  {% for pair in pairs %}
+
+  <li value="{{ pair[0] }}"><a href="{{ url_for('sweet', id=pair[0]) }}">{{ pair[1] }}</a></li>
+
+  {% endfor %}
+
+</ul>
+
+{% endblock %}

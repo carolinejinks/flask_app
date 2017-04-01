@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Detail Page for {{ name }}</h1>
+
+<p>Name: {{ name }}</p>
+
+<p>Company that manufactures it: {{ manufacturer }}</p>
+
+<p>Country of origin: {{ country }}</p>
+
+<p>Kind of sweet: {{ kind }}</p>
+
+<a href="{{ url_for('index') }}">Return to search page</a>
+
+{% endblock %}

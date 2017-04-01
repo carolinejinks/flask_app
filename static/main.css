@@ -1,0 +1,57 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+    background: #522F2B;
+  }
+
+#container {
+        margin: 5em auto;
+        width: 740px;
+        padding: 2em 4em;
+        background: #E0B62F;
+    }
+h1 {
+  font-family: 'Sigmar One', cursive;
+  color: #000;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 1em;
+    }
+
+a {
+    color: #0646CF;
+    }
+
+a:hover {
+  color: #DB173D;
+}
+
+a:active {
+  color: #10BF1A;
+}
+
+a:visited {
+  color: #F27724;
+}
+
+@media (max-width: 800px) {
+        body {
+            background: #fff;
+        }
+        #container {
+            margin: 0;
+            width: 100%;
+            padding: 2em;
+        }
+    }
